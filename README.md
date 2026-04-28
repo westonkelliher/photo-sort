@@ -4,6 +4,8 @@ Stop staring at 12,000 unsorted phone photos. `photo-sort` reads each file's
 capture date and drops it into `YYYY/MM-Month/` folders. Ten years of camera
 roll, organized in seconds.
 
+![demo](assets/demo.svg)
+
 ## Install
 
 Requires Python 3.9+.
