@@ -37,15 +37,19 @@ python3 photo_sort.py ~/Pictures/dump -r --dedupe
 | `-r, --recursive`    | also process subfolders                              |
 | `-c, --copy`         | copy instead of move (safer)                         |
 | `--scheme`           | `year-month` (default), `year`, or `ymd`             |
+| `--by-camera`        | also group by camera model (e.g. `iPhone 13/2023/...`)|
+| `--pair-live`        | keep iPhone live-photo `.MOV` next to its `.HEIC`    |
 | `--dedupe`           | skip duplicate files (SHA-1 match)                   |
 | `--delete-dupes`     | also delete dupes from the source                    |
+| `--manifest FILE`    | write a CSV log of every action for auditing         |
 | `-n, --dry-run`      | preview without changing files                       |
 
 ### How dates are detected
 
-1. **EXIF** `DateTimeOriginal` (real camera date)
-2. **Filename** patterns like `IMG_20220815_120000.jpg`
-3. **File modified time** (last resort)
+1. **EXIF** `DateTimeOriginal` (photos)
+2. **ffprobe** `creation_time` (videos, when ffmpeg is installed)
+3. **Filename** patterns: `IMG_`, `VID_`, `MVI_`, `PXL_`, `DSC_`, `DSCN_`, `DSCF_`, `GOPR_`, `GH*_`, plain `YYYYMMDD_HHMMSS`, dashed `YYYY-MM-DD_HH-MM-SS`
+4. **File modified time** (last resort)
 
 Each file's report tells you which source was used.
 
