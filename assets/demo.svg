@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 540" width="980" height="540" font-family="ui-monospace, SF Mono, Menlo, monospace" font-size="14">
+  <rect width="980" height="540" rx="10" fill="oklch(0.16 0.02 250)"/>
+  <rect x="0" y="0" width="980" height="32" rx="10" fill="oklch(0.22 0.02 250)"/>
+  <circle cx="20" cy="16" r="6" fill="oklch(0.65 0.20 30)"/>
+  <circle cx="42" cy="16" r="6" fill="oklch(0.78 0.18 80)"/>
+  <circle cx="64" cy="16" r="6" fill="oklch(0.75 0.18 145)"/>
+  <text x="490" y="21" text-anchor="middle" fill="oklch(0.7 0.02 250)" font-size="13">photo-sort — bash</text>
+
+  <g fill="oklch(0.92 0.02 250)" xml:space="preserve">
+    <text x="20" y="64"><tspan fill="oklch(0.78 0.18 145)">$</tspan> photo-sort ~/Pictures/dump -d ~/Pictures/sorted -c --dedupe</text>
+    <text x="20" y="92"><tspan fill="oklch(0.7 0.05 250)">[1/11847]</tspan> COPY  IMG_4831.HEIC <tspan fill="oklch(0.7 0.05 250)">-&gt;</tspan> 2019/07-July/IMG_4831.HEIC  <tspan fill="oklch(0.65 0.04 250)">(exif)</tspan></text>
+    <text x="20" y="116"><tspan fill="oklch(0.7 0.05 250)">[2/11847]</tspan> COPY  IMG_4832.HEIC <tspan fill="oklch(0.7 0.05 250)">-&gt;</tspan> 2019/07-July/IMG_4832.HEIC  <tspan fill="oklch(0.65 0.04 250)">(exif)</tspan></text>
+    <text x="20" y="140"><tspan fill="oklch(0.7 0.05 250)">[3/11847]</tspan> COPY  IMG_4833.HEIC <tspan fill="oklch(0.7 0.05 250)">-&gt;</tspan> 2019/07-July/IMG_4833.HEIC  <tspan fill="oklch(0.65 0.04 250)">(exif)</tspan></text>
+    <text x="20" y="164"><tspan fill="oklch(0.7 0.05 250)">[4/11847]</tspan> <tspan fill="oklch(0.78 0.18 80)">DUPE</tspan>  IMG_4833_copy.HEIC <tspan fill="oklch(0.7 0.05 250)">==</tspan> IMG_4833.HEIC</text>
+    <text x="20" y="188"><tspan fill="oklch(0.7 0.05 250)">[5/11847]</tspan> COPY  IMG_4834.HEIC <tspan fill="oklch(0.7 0.05 250)">-&gt;</tspan> 2019/07-July/IMG_4834.HEIC  <tspan fill="oklch(0.65 0.04 250)">(exif)</tspan></text>
+    <text x="20" y="212"><tspan fill="oklch(0.7 0.05 250)">[6/11847]</tspan> COPY  VID_20210413.MOV <tspan fill="oklch(0.7 0.05 250)">-&gt;</tspan> 2021/04-April/VID_20210413.MOV  <tspan fill="oklch(0.65 0.04 250)">(filename)</tspan></text>
+    <text x="20" y="236"><tspan fill="oklch(0.7 0.05 250)">[7/11847]</tspan> COPY  IMG_4837.HEIC <tspan fill="oklch(0.7 0.05 250)">-&gt;</tspan> 2019/08-August/IMG_4837.HEIC  <tspan fill="oklch(0.65 0.04 250)">(exif)</tspan></text>
+    <text x="20" y="260" fill="oklch(0.6 0.04 250)">                ...</text>
+    <text x="20" y="284"><tspan fill="oklch(0.7 0.05 250)">[11847/11847]</tspan> COPY IMG_9994.HEIC <tspan fill="oklch(0.7 0.05 250)">-&gt;</tspan> 2024/03-March/IMG_9994.HEIC  <tspan fill="oklch(0.65 0.04 250)">(exif)</tspan></text>
+
+    <text x="20" y="320" fill="oklch(0.85 0.02 250)">--- summary ---</text>
+    <text x="20" y="344">         moved: 0</text>
+    <text x="20" y="368">        copied: <tspan fill="oklch(0.85 0.15 145)">11521</tspan></text>
+    <text x="20" y="392">  skipped_dupe: <tspan fill="oklch(0.78 0.18 80)">326</tspan></text>
+    <text x="20" y="416">        errors: 0</text>
+
+    <text x="20" y="456">real    <tspan fill="oklch(0.85 0.15 145)">0m31.412s</tspan></text>
+    <text x="20" y="488"><tspan fill="oklch(0.78 0.18 145)">$</tspan> <tspan fill="oklch(0.92 0.02 250)">_</tspan></text>
+  </g>
+</svg>

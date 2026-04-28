@@ -1,0 +1,19 @@
+$ photo-sort ~/Pictures/dump -d ~/Pictures/sorted -c --dedupe -n
+[1/11847] COPY  IMG_4831.HEIC -> 2019/07-July/IMG_4831.HEIC  (exif)
+[2/11847] COPY  IMG_4832.HEIC -> 2019/07-July/IMG_4832.HEIC  (exif)
+[3/11847] COPY  IMG_4833.HEIC -> 2019/07-July/IMG_4833.HEIC  (exif)
+[4/11847] DUPE  IMG_4833_copy.HEIC == IMG_4833.HEIC
+[5/11847] COPY  IMG_4834.HEIC -> 2019/07-July/IMG_4834.HEIC  (exif)
+[6/11847] COPY  VID_20210413.MOV -> 2021/04-April/VID_20210413.MOV  (filename)
+[7/11847] COPY  IMG_4837.HEIC -> 2019/08-August/IMG_4837.HEIC  (exif)
+...
+[11847/11847] COPY  IMG_9994.HEIC -> 2024/03-March/IMG_9994.HEIC  (exif)
+
+--- summary ---
+         moved: 0
+        copied: 11521
+  skipped_dupe: 326
+        errors: 0
+(dry run — no files changed)
+
+real    0m31.412s
